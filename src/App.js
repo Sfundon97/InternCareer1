@@ -7,8 +7,10 @@ import Write from "./pages/write/Write";
 import Settings from "./pages/settings/Settings";
 import Login from "./pages/login/Login";
 import Register from "./pages/register/SignUp";
-import {BrowserRouter, Routes, Route, Link} from "react-router-dom"
+import {BrowserRouter, Routes, Route} from "react-router-dom"
 import About from './components/about/About';
+import Posts from './components/Posts/Posts';
+import Post from './components/post/Post';
 
 
 function App(){
@@ -20,7 +22,7 @@ function App(){
         />
         <Route path= "/about" element={<About/>}
         />
-        <Route path="/single" element={<Single/>}
+        <Route path="/single/:id" element={<Posts/>}
         />
         <Route path="/blog" element={<Write/>}
         />
