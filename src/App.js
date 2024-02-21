@@ -8,6 +8,7 @@ import Settings from "./pages/settings/Settings";
 import Login from "./pages/login/Login";
 import Register from "./pages/register/SignUp";
 import {BrowserRouter, Routes, Route, Link} from "react-router-dom"
+import About from './components/about/About';
 
 
 function App(){
@@ -16,6 +17,8 @@ function App(){
       <TopBar/>
       <Routes>
         <Route path="/home" element={<Home/>}
+        />
+        <Route path= "/about" element={<About/>}
         />
         <Route path="/single" element={<Single/>}
         />

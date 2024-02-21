@@ -14,7 +14,7 @@ export default function TopBar(){
             <div className="topCenter">
                 <ul className="topList">
                     <li className="topListItem"><Link to="/home" style={{textDecoration: "none", color:""}}>Home</Link></li>
-                    <li className="topListItem"><Link to="/" style={{textDecoration: "none", color:""}}>About</Link></li>
+                    <li className="topListItem"><Link to="/about" style={{textDecoration: "none", color:""}}>About</Link></li>
                     <li className="topListItem"><Link to="/" style={{textDecoration: "none", color:""}}>Contact</Link></li>
                     <li className="topListItem"><Link to="/blog" style={{textDecoration: "none", color:""}}>Write</Link></li>
 
